@@ -1,0 +1,138 @@
+# =================================
+# ARQUIVO .gitignore PERSONALIZADO
+# =================================
+
+# 1. SEU AMBIENTE VIRTUAL ESPECÍFICO
+meu_ambiente/
+
+# 2. AMBIENTES VIRTUAIS PYTHON (alternativos)
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# 3. ARQUIVOS COMPILADOS PYTHON
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# 4. PACOTES E DISTRIBUIÇÕES
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+pip-wheel-metadata/
+
+# 5. ARQUIVOS DE INSTALAÇÃO E LOGS
+pip-log.txt
+pip-delete-this-directory.txt
+.installed.cfg
+
+# 6. TESTES E COBERTURA
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+htmlcov/
+
+# 7. JUPYTER NOTEBOOK
+.ipynb_checkpoints
+
+# 8. IDEs E EDITORES
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm/IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Outros editores
+*.swp
+*.swo
+*~
+._*
+
+# 9. ARQUIVOS DE SISTEMA OPERACIONAL
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+.nfs*
+
+# 10. ARQUIVOS TEMPORÁRIOS E LOGS
+*.tmp
+*.temp
+*.bak
+*.backup
+*.sav
+*.log
+logs/
+log/
+
+# 11. ARQUIVOS DE DADOS (DESCOMENTE SE NÃO QUISER VERSIONAR)
+# *.csv
+# *.xlsx
+# *.xls
+# *.db
+# *.sqlite
+# *.sqlite3
+
+# 12. ARQUIVOS DE MÍDIA E GRÁFICOS (DESCOMENTE SE NÃO QUISER VERSIONAR)
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.pdf
+# *.html  # gráficos Plotly
+
+# 13. ARQUIVOS DE CONFIGURAÇÃO SENSÍVEIS
+# .env
+# .env.local
+# .env.production
+# config_local.py
+# settings_local.py
+# secrets.json
+# credentials.json
+# *.key
+# *.pem
+
+# 14. OUTROS
+.ipython/
+profile_default/
+.spyderproject
+.spyproject
+.ropeproject
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
